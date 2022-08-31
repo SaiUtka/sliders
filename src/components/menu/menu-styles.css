@@ -1,0 +1,24 @@
+.menu {
+    font-size: 30px;
+}
+
+.menu_list {
+    list-style: none;
+    display: flex;
+    column-gap: 80px;
+}
+
+.list_item {
+    transition: 0.25s;
+}
+
+.list_item:hover {
+    font-size: 40px;
+    transition: 0.25s;
+}
+
+.list_item > a {
+    text-decoration: none;
+    color: #000;
+}
+
